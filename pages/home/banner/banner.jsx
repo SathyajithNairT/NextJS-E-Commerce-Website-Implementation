@@ -1,7 +1,7 @@
 
 
 
-export function HomeBanner() {
+export default function HomeBanner() {
     return (
         <div className="home-banner-main-wrap">
             <div className="home-banner-clothing-collection">

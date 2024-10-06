@@ -1,7 +1,7 @@
 
 
 
-export function HomeInstagram(){
+export default function HomeInstagram(){
     return(
         <div className="home-instagram-main-wrap">
             <div className='home-instagram-image-container'>

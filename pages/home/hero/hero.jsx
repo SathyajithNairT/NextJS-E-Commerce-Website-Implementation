@@ -5,7 +5,7 @@ import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import { FaFacebookF, FaTwitter, FaPinterest, FaInstagram } from "react-icons/fa";
 
 
-export function HomeHero() {
+export default function HomeHero() {
 
     const [heroIndex, setHeroIndex] = useState(0)
     const [fade, setFade] = useState('fade-in')

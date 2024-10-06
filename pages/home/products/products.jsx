@@ -6,7 +6,7 @@ import { FaRegStar } from "react-icons/fa";
 
 
 
-export function Products() {
+export default function Products() {
 
     const [productlist, setProductList] = useState([])
     const [activeNav, setActiveNav] = useState('bestSeller')

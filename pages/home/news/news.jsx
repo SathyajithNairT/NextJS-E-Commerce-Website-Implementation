@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { bloglist } from "../../../src/components/base/JS/blog-list"
 
-export function HomeNews() {
+export default function HomeNews() {
 
     const [blogList, setBlogList] = useState([])
 
